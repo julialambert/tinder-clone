@@ -6,7 +6,7 @@ const routes = require ('./routes');
 
 const server = express();
 
-mongoose.connect('mongodb+srv://user:admin@cluster0.hh5wi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('', {
   useNewUrlParser: true
 });
 
