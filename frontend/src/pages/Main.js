@@ -6,7 +6,6 @@ import api from '../services/api';
 import logo from '../assets/logo.svg';
 import like from '../assets/like.svg';
 import dislike from '../assets/dislike.svg';
-import { useParams } from 'react-router-dom';
 
 export default function Main({ match }) {
   const [users, setUsers] = useState([]);
